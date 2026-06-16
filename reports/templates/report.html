@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -7,47 +9,62 @@ ReconForge Report
 </title>
 
 
+<meta charset="UTF-8">
+
+
 <style>
+
 
 body{
 
-font-family:Arial;
+font-family:
+Arial, sans-serif;
 
-margin:40px;
+background:#f4f4f4;
+
+padding:40px;
 
 }
+
+
+
+.header{
+
+background:#111;
+
+color:white;
+
+padding:25px;
+
+}
+
 
 
 .card{
 
-border:1px solid #ddd;
+background:white;
 
 padding:20px;
 
-margin:15px;
+margin-top:20px;
+
+border-radius:8px;
+
+box-shadow:0 2px 5px #ccc;
 
 }
 
 
-.high{
 
-background:#ffdddd;
+.title{
 
-}
+font-size:22px;
 
-
-.medium{
-
-background:#fff3cd;
+font-weight:bold;
 
 }
 
 
-.low{
-
-background:#ddffdd;
-
-}
 
 </style>
 
@@ -58,12 +75,26 @@ background:#ddffdd;
 <body>
 
 
+
+<div class="header">
+
+
 <h1>
-ReconForge Security Assessment
+ReconForge Security Report
 </h1>
 
 
+<p>
+Automated Recon Assessment
+</p>
+
+
+</div>
+
+
+
 {{CONTENT}}
+
 
 
 </body>
