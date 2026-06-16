@@ -57,6 +57,68 @@ Clone repository:
 
 
 ```bash
-git clone https://github.com/USERNAME/ReconForge.git
+git clone https://github.com/muhammadtalha1322/ReconForge.git
 
 cd ReconForge
+````
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Check environment:
+
+```bash
+python3 reconforge.py check
+```
+
+## Usage
+
+Start scan:
+
+```bash
+python3 reconforge.py scan -t target.com
+```
+
+Generate report:
+
+```bash
+python3 reconforge.py report \
+-i output/sessions/session/results.json
+```
+
+## Project Structure
+
+```
+ReconForge
+
+core/
+    engine
+    runner
+    rules
+
+modules/
+
+    passive
+    active
+    fingerprint
+    web
+
+
+reports/
+
+output/
+
+scripts/
+
+```
+
+## Legal
+
+Use only against systems you own or have explicit authorization to test.
+
+## License
+
+MIT
