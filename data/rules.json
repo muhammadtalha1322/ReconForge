@@ -1,0 +1,29 @@
+{
+    "rules": [
+
+        {
+            "name": "wordpress",
+            "keyword": "WordPress",
+            "module": "web"
+        },
+
+        {
+            "name": "api",
+            "keyword": "api",
+            "module": "web"
+        },
+
+        {
+            "name": "ssh",
+            "keyword": "22",
+            "module": "ssh"
+        },
+
+        {
+            "name": "http",
+            "keyword": "http",
+            "module": "web"
+        }
+
+    ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "module": "passive",
+        "data": {
+            "stdout": "Target: example.com\n",
+            "stderr": "",
+            "code": 0
+        }
+    }
+]
